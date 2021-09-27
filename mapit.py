@@ -2,7 +2,7 @@ import webbrowser
 import sys
 import Pyperclip
 
-
+#Check Argument and create a url
 if len(sys.argv) > 1:
 
     address = ''.join(sys.argv[1:])
